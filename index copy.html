@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Move Car</title>
+</head>
+<link rel="stylesheet" href="./mystyles.css">
+<body>
+    
+
+
+    <div class="container" >
+    <h1> Navigate the car using the buttons</h1>
+
+    <input type="button" value="start" id="start"   onclick="start()">
+    <input type="button" value="stop" id="stop">
+    <img src="./images/car.png" alt="Car image"    id="mycar">
+
+    </div>
+
+
+<script> 
+
+  let car_Element=document.getElementById("mycar");
+  
+  function start()
+  {
+
+car_Element.style.left=car_Element.style.left=650+"px";
+  }
+
+
+
+</script>
+
+
+
+      <!-- <h1>Im balaji</h1> -->
+</body>
+</html>

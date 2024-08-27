@@ -1,0 +1,26 @@
+html,
+body {
+  margin: 0x;
+  padding: 0px;
+}
+
+.container {
+  margin: 0px;
+  padding: 0px;
+  background-image: url("./images/background.jpeg");
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+h1 {
+  margin: 0px;
+  padding-top: 0px;
+  text-align: center;
+  color: white;
+}
+
+#mycar {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}
